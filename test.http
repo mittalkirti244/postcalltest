@@ -1,0 +1,27 @@
+### GET all data
+GET http://localhost:4004/s4service/BusinessPartner
+
+### POST data
+POST http://localhost:4004/s4service/BusinessPartner
+Content-Type: application/json
+
+{
+    
+        "BusinessPartnerCategory": "2",
+        "OrganizationBPName1": "AAAA1"
+    
+}
+
+### DELETE date
+DELETE http://localhost:4004/s4service/BusinessPartner('191')
+Content-Type: application/json
+
+###{ "BusinessPartner" : "191" }
+
+
+###
+{ "BusinessPartnerCategory": "2", "OrganizationBPName1": "Test12345" }
+
+### POST data
+POST http://localhost:4004/s4service/BusinessPartner
+Content-Type: application/json
